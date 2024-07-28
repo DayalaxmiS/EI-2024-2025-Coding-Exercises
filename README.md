@@ -13,6 +13,7 @@
 2. **Facade Pattern**: Simplifies user interactions to start or shut down a computer system.
 
 
+
 # EXERCISE 2 - Mars Rover Programming Exercise
 
 ## Description
