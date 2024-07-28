@@ -1,16 +1,17 @@
 # EXERCISE 1 - Design Patterns
 
 ## Behavioural Design Pattern 
-- Command Pattern
-- State Pattern 
-   
+1. **Command Pattern**: Allows users to input commands to control home automation appliances (light and fan).
+2.  **State Pattern**: Enhances a vending machine to handle user interactions based on its current state.
+
 ## Creational Design Pattern 
-- Builder Pattern
-- Protoype Pattern 
-   
+1. **Builder Pattern**: Enables users to build a custom meal by choosing burger, drink, and fries.
+2. **Prototype Pattern**: Provides a system for cloning shapes (circle and rectangle) based on user selection.
+
 ## Structural Design Pattern
-- Decorator Pattern
-- Facade Pattern
+1. **Decorator Pattern**: Enables dynamic addition of text formatting options (bold, italic, underline) by user input.
+2. **Facade Pattern**: Simplifies user interactions to start or shut down a computer system.
+
 
 # EXERCISE 2 - Mars Rover Programming Exercise
 
@@ -35,6 +36,41 @@ To set up and run the Mars Rover simulation on your local machine, follow these 
    cd mars-rover-simulation
    
 2. **Build the Project**:
+   Ensure you have JDK installed. Then, build the project using your preferred build tool (e.g., Maven, Gradle).
+   For Gradle
+   ```bash
+   gradle build
+      
+3. **Run the Simulation**:
+   ```bash
+   java -cp target/mars-rover-simulation.jar com.marsrover.simulation.MarsRoverSimulation
+   
+## How to Use the Project
+1. **Input Grid Size**: Enter the width and height of the grid.
+2. **Input Obstacles**: Enter the number of obstacles and their coordinates.
+3. **Input Starting Position**: Enter the starting position (x, y) and direction (N, S, E, W) for the Rover.
+4. **Input Commands**: Enter a sequence of commands (M, L, R) for the Rover to execute.
+5. **View Results**: The final position and direction of the Rover will be displayed after executing all commands.
+
+## Example Usage
+
+1. **Enter grid size**: `10 10`
+2. **Enter number of obstacles**: `2`
+3. **Enter obstacle coordinates**: `2 2` and `3 5`
+4. **Enter starting position and direction**: `0 0 N`
+5. **Enter commands**: `M M R M L M`
+6. **Output**: Rover is at `(1, 3)` facing East
+
+
+
+
+
+   
+
+
+
+   
+   
    
    
 
